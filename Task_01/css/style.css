@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ 
+body {
+    /* width: 300px; */
+    font-size: 60px;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: #045de9;
+    background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+    text-align: center;
+}
+ 
+/* .sans-serif {
+    font-family: serif;
+}
+
+.monospace {
+    font-family: monospace;
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+span {
+  font-weight: bold;  
+} */
+
+
+
+
+/* WPSIUJAC TRZY CZCIONKI NA RAZ MOWIMY KOMPUTEROWI ZEBY W PIERWSZEJ KOLENOSCI UZYL ARIAL DRUGA .... TRZECIA ... */
+
+/* p{
+    font-family: Arial, Helvetica, sans-serif; */
+/* }

@@ -10,9 +10,50 @@ body {
     height: 100vh;
     font-family: 'Montserrat', sans-serif;
     background-color: #333;
+    color: #fff;
 }
 
 p {
     color: white;
     font-size: 60px;
+    /* position: absolute; */
 }
+/* !IMPORTANT PRZEBIJA WSZYSTKO I JEST TO KOŁO RATUNKOWE */
+div {
+    background-color: yellowgreen !important; 
+}
+
+/* div{
+    font-size: 80px;
+}
+
+p{
+    font-size: 80px;
+}
+
+span{
+    font-size: 80px;
+} */
+
+
+
+
+/* div,p,span{
+    font-size: 80px;
+} */
+
+/* div p span{
+    font-size: 100px;
+    background-color: #dde71a;
+} */
+
+
+
+/* .text{
+    font-size: 100px;
+} */
+
+
+/* =================================================
+
+
