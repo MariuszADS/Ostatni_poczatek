@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 36px;
+    font-family: 'Montserrat','sans-serif';
+    background-color: gray;
+    margin: 100px 20px;
+    height: 300vh;
+}
+
+div{
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    border: 3px solid black;
+    margin-bottom: 10px;
+}
+
+.red{
+    background-color: tomato;
+    /* position: sticky;
+    top: 100px; */
+    position: relative;
+    top: 110px;
+    right: 100px;
+}
+
+.blue{
+    background-color: royalblue;
+    position: sticky;
+    top: 100px;}
+
+.green{
+    background-color: lime;
+    position: sticky;
+    top: 100px;}

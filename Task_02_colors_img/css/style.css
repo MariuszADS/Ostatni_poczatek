@@ -1,0 +1,63 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body {
+    /* ZAPIS FELXBOKSOWY */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px;
+    font-size: 36px;
+    height: 100vh;
+    font-family: 'Montserrat',serif;
+    background-color: #333;
+    color: white;
+    overflow: hidden;
+}
+
+/* NAZWY KOLORÓW */
+
+/* RGB (0-255) */
+
+/* HLS (hue,saturation,lightness) */
+
+/* HEX (#RGB) SYSTEM SZESNASTKOWY */
+
+
+                /* INDEX.HTML */
+
+/* div{
+    width: 500px;
+    height: 500px;
+    background-color: gold;
+} */
+
+
+                /* INDEX_01.HTML */
+
+/* div{
+width: 800px;
+border: 5px solid black;
+} */
+
+img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    opacity: 1;
+    filter: blur(2px); 
+            /* OBRÓCENIE KOLORÓW NA DRUGĄ STRONE */
+    /* filter: invert(100%);  */
+}
+
+                /* WYCHODZI IDEALNE KOŁO */
+
+/* width: 500px;
+    height: 500px;
+    border-radius: 50%;
+ */
+

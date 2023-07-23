@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background-color: #333;
+    font-size: 36px;
+}
+
+h3{
+    padding: 40px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+div{
+margin-bottom: 50px;
+}
+
+/* p,span{
+    padding: 30px 50px;
+    color: gold;
+} */
+
+/* .parent{
+    color: royalblue;
+}
+
+#parent_01{
+    color: tomato;
+} */
+
+
+
+/* 
+div > p {
+    color: lime;
+}
+
+div + p {
+    color: gold;
+}
+
+div ~ p {
+    color: tomato;
+} */
+
+
+div > p {
+    color: red;
+}
+
+.child > p{
+    text-decoration: line-through;
+    font-weight: bold;
+    /* color: red;  */
+}
+
+#test ~ div{
+    background-color: blue;
+}
+
+main + p{
+    text-transform: uppercase;
+}
