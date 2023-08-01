@@ -1,0 +1,106 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 26px;
+	font-family: 'Montserrart', 'Sans-serif';
+	background-color: grey;
+	height: 300vh;
+	width: 300vh;
+}
+
+div {
+	border-radius: 10px;
+	text-align: center;
+	line-height: 50px;
+}
+.long {
+	position: absolute;
+	width: 800px;
+	height: 60px;
+	left: calc(50%);
+	top: 50px;
+	transform: translate(-50%);
+	background-color: red;
+	border: 2px solid black;
+	transition: transform 0.4s;
+}
+.long:hover {
+	transform: scale(1.5);
+	/* transform: scale(-2); */
+	width: 200px;
+	left: calc(50%);
+	transform: translate(-50%);
+	background-color: green;
+}
+
+.size {
+	position: absolute;
+	width: 300px;
+	height: 60px;
+}
+
+.short {
+	top: 180px;
+	left: calc(50% - 150px);
+	/* transform: translate(-50%); */
+	border-radius: 25px;
+	background-color: blue;
+	border: 2px solid black;
+	transition: 0.3s;
+	transition-timing-function: linear;
+}
+
+.short:hover {
+	transform: rotate(360deg);
+}
+
+.short2 {
+	top: 300px;
+	left: calc(50% + 100px);
+	/* left: 150px; */
+	background-color: yellow;
+	border: 2px solid black;
+	/* z-index: -1; */
+	transition: 2s 1s;
+	transition-timing-function: cubic-bezier(ease-out);
+}
+
+.short:hover ~ .short2 {
+	transform: rotate(-360deg);
+}
+
+.short3 {
+	top: 300px;
+	left: calc(50% - 400px);
+	background-color: green;
+	border: 2px solid black;
+	/* z-index: 1; */
+	transition: 4s 1s;
+	transition-timing-function: cubic-bezier(1s);
+}
+
+.short:hover ~ .short3 {
+	transform: rotate(360deg);
+}
+
+.center {
+	position: absolute;
+	width: 400px;
+	height: 200px;
+	background-color: #ffffff00;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -20%);
+	border: 2px solid black;
+	transition: 1s;
+	line-height: 200px;
+}
+
+.center:hover {
+	background-color: white;
+	/* color: black; */
+}

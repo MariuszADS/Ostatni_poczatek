@@ -1,0 +1,37 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Montserrat', 'sans-serif';
+	background-color: #fff;
+	font-size: 26px;
+	height: 100vh;
+
+	background-image: url('https://cdn.pixabay.com/photo/2023/06/10/15/24/insect-8054262_1280.jpg'),linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+
+	background-color: #20bf55;
+	background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-position: 50% 100px;  */
+    /* background-position: center;  */
+    /* background-size: contain;  */
+    /* background-size: cover;  */
+
+    /* background-attachment: fixed; */
+    /* background-attachment: scroll; */
+    /* background-attachment: local; */
+}
+
+
+img{
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+     
+}

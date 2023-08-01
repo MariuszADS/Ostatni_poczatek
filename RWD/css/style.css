@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+
+.box{
+    width: 600px;
+    height: 300px;
+    background-color: gold;
+}
+
+@media (min-width: 650px) and (max-width: 850px) {
+    .box{
+        background-color: tomato;
+    }
+}
+
+@media (min-width: 900px) {
+    .box{
+        background-color: royalblue;
+    }
+}
+
+@media (min-width: 1000px) {
+    .box{
+        background-color: lime;
+    }
+}
+
+@media (min-width: 1500px) {
+    body{
+        background-color: rgb(255, 0, 200);
+    }
+}
